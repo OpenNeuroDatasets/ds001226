@@ -22,4 +22,12 @@ Of all subjects the following data were acquired:
 - cognitive assessment using the Cambridge Neuropsychological Test Automated Battery (CANTAB): MOT, RVP, RTI, SSP & SOC
 - questionnaires assessing demographic information, lifestyle habits & emotional functioning
 
-The "derivatives" folder contains tumor masks, obtained with a combination of manual delineation and disconnectome
+The "derivatives" folder contains
+
+- tumor masks, obtained with a combination of manual delineation and disconnectome
+- time series, structural and functional connectivity matrices, and resting state HRF for each ROI.
+The structural connectivity (SC) is derived with the TVB pipeline (https://github.com/BrainModes/TVB-empirical-data-pipeline) with manual segmentation when necessary.
+The regions are according to the Desikan-Killiany atlas.
+The resting state HRF is obtained with the toolbox described here Wu GR, Colenbier N, Van Den Bossche S, Clauw K, Johri A, Tandon M, Marinazzo D. rsHRF: A toolbox for resting-state HRF estimation and deconvolution. Neuroimage. 2021 Dec 1;244:118591. doi: 10.1016/j.neuroimage.2021.118591. Epub 2021 Sep 21. PMID: 34560269.
+
+A companion dataset, containing the postoperatory data, is accessible at https://openneuro.org/datasets/ds002080
